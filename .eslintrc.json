@@ -31,6 +31,7 @@
     "no-plusplus": "off",
     "no-param-reassign": ["error", { "props": false }],
     "no-unused-vars": "off",
+    "import/prefer-default-export": "off",
     "@typescript-eslint/naming-convention": [
       "error",
       {
@@ -52,7 +53,7 @@
       { "varsIgnorePattern": "^_", "argsIgnorePattern": "^_" }
     ],
     "prefer-destructuring": ["error", { "object": false, "array": false }],
-    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-empty-function": ["error"],
     "react/jsx-props-no-spreading": "off",
     "react/function-component-definition": "off",

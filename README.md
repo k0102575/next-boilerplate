@@ -10,5 +10,7 @@
 - React: 17.0
 - Typescript: 4.5
 - Recoil: 0.5
+- React-query: 3.34
+- Axios
 - Airbnb based Eslint
 - Prettier
