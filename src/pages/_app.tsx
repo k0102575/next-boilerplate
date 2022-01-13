@@ -2,8 +2,7 @@ import type { AppProps } from 'next/app';
 import { RecoilRoot } from 'recoil';
 import { Hydrate, QueryClient, QueryClientProvider } from 'react-query';
 import { useState } from 'react';
-import { Global } from '@emotion/react';
-import { globalStyles } from '@/styles/globalStyles';
+import { GlobalStyles } from '@/styles/GlobalStyles';
 
 function MyApp({ Component, pageProps }: AppProps) {
   const [queryClient] = useState(new QueryClient());
@@ -12,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <QueryClientProvider client={queryClient}>
       <Hydrate state={pageProps.dehydratedState}>
         <RecoilRoot>
-          <Global styles={globalStyles} />
+          <GlobalStyles />
           <Component {...pageProps} />
         </RecoilRoot>
       </Hydrate>
