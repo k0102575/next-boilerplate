@@ -12,6 +12,6 @@ const styles = ({ width }: Props) => css`
   background-color: ${themes.color.black};
 `;
 
-const Home: NextPage = () => <div css={styles({ width: '100px' })}>Hello World</div>;
+const Emotion: NextPage = () => <div css={styles({ width: '100px' })}>Hello World</div>;
 
-export default Home;
+export default Emotion;

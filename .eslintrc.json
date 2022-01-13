@@ -23,6 +23,7 @@
   },
   "ignorePatterns": ["**/node_modules/**"],
   "rules": {
+    "consistent-return": "off",
     "max-len": ["error", { "code": 100 }],
     "radix": ["error", "as-needed"],
     "no-empty": ["error", { "allowEmptyCatch": true }],
@@ -31,6 +32,7 @@
     "no-plusplus": "off",
     "no-param-reassign": ["error", { "props": false }],
     "no-unused-vars": "off",
+    "no-nested-ternary": "off",
     "import/prefer-default-export": "off",
     "@typescript-eslint/naming-convention": [
       "error",
