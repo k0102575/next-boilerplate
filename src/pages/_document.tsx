@@ -5,7 +5,7 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta charSet="utf-8"></meta>
+          <meta charSet="utf-8" />
           <body>
             <Main />
             <NextScript />

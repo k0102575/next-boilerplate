@@ -1,0 +1,21 @@
+{
+  "presets": [
+    [
+      "next/babel",
+      {
+        "preset-react": {
+          "runtime": "automatic",
+          "importSource": "@emotion/react"
+        }
+      }
+    ]
+  ],
+  "plugins": ["@emotion/babel-plugin"]
+}
+
+/* 
+  INFO: Next.js SWC Compiler Disabled 됨
+  추가 수정 예정
+  document : https://nextjs.org/docs/messages/swc-disabled 
+  feedback : https://github.com/vercel/next.js/discussions/30174
+*/

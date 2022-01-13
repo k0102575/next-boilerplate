@@ -6,6 +6,12 @@
 
 ### Technology stack
 
-- Next: 12.0.7
-- React: 17.0.2
-- typescript: 4.5.4
+- Next: 12
+- React: 17
+- Typescript: 4.5
+- Recoil: 0.5
+- React-query
+- Axios
+- Airbnb based Eslint
+- Prettier
+- Emotion With emotion-reset
